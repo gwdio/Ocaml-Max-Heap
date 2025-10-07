@@ -1,0 +1,20 @@
+# dune runtest
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/gwdio/.cache/dune/db
+# Workspace root: /mnt/c/Users/gwdio/development/cs2800/MaxHeap
+# Auto-detected concurrency: 32
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/gwdio/.opam/default/bin/ocamlc.opt -config > /tmp/dune_e2edbb_output
+$ (cd _build/default/test && ./test_max_heap_string_props.exe)
+>  seed: 91055325
+> ================================================================================
+> success (ran 8 tests)

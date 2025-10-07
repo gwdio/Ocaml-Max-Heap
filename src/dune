@@ -1,0 +1,8 @@
+(library
+ (name max_heap)
+ (modules max_heap))               ; only max_heap.{ml,mli} in this lib
+
+(library
+ (name max_heap_string)
+ (modules max_heap_string)         ; only max_heap_string.{ml,mli} here
+ (libraries max_heap))             ; depends on the first lib
