@@ -1,0 +1,20 @@
+GC_PROFILE=8m
+trial=1 time=0.2199s minor_words=83886042 major_collections=8 promoted_words=4674894
+trial=2 time=0.2099s minor_words=83886051 major_collections=6 promoted_words=4781769
+trial=3 time=0.2057s minor_words=83886027 major_collections=6 promoted_words=4787004
+trial=4 time=0.2104s minor_words=83886047 major_collections=6 promoted_words=4704304
+trial=5 time=0.2061s minor_words=83886030 major_collections=6 promoted_words=4652239
+
+GC_PROFILE=16m
+trial=1 time=0.2245s minor_words=83886062 major_collections=6 promoted_words=3466694
+trial=2 time=0.1950s minor_words=75497444 major_collections=5 promoted_words=3254864
+trial=3 time=0.1920s minor_words=92274664 major_collections=5 promoted_words=3526069
+trial=4 time=0.2060s minor_words=83886052 major_collections=4 promoted_words=3195392
+trial=5 time=0.1983s minor_words=83886050 major_collections=4 promoted_words=3232854
+
+GC_PROFILE=32m
+trial=1 time=0.2612s minor_words=83886062 major_collections=3 promoted_words=1617324
+trial=2 time=0.1650s minor_words=83886056 major_collections=5 promoted_words=2349614
+trial=3 time=0.1719s minor_words=83886067 major_collections=3 promoted_words=1720434
+trial=4 time=0.1765s minor_words=83886067 major_collections=5 promoted_words=2354719
+trial=5 time=0.1671s minor_words=83886067 major_collections=3 promoted_words=1820907

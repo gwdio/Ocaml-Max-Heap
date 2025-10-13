@@ -1,0 +1,22 @@
+; bench/dune
+(executable
+ (name bench_heap)
+ (modules bench_heap)
+ (libraries unix max_heap)
+ (modes native)
+ (ocamlopt_flags (:standard -g)))
+
+(executable
+ (name bench_compare)
+ (modules bench_compare)
+ (libraries unix max_heap)
+ (modes native)
+ (ocamlopt_flags (:standard -g)))
+
+(rule
+ (alias bench)
+ (deps %{exe:bench_heap.exe} %{exe:bench_compare.exe})
+ (action (progn
+   (run %{exe:bench_heap.exe})
+   (run %{exe:bench_compare.exe}))))
+

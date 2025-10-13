@@ -1,0 +1,5 @@
+trial=1 time=0.2707s minor_words=84409510 major_collections=26 promoted_words=13896038
+trial=2 time=0.2614s minor_words=84278415 major_collections=19 promoted_words=13898956
+trial=3 time=0.2475s minor_words=84540496 major_collections=19 promoted_words=13912692
+trial=4 time=0.2527s minor_words=84409453 major_collections=20 promoted_words=13912541
+trial=5 time=0.2617s minor_words=84540485 major_collections=19 promoted_words=13902582

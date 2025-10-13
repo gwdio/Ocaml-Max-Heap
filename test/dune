@@ -1,3 +1,9 @@
 (test
  (name test_max_heap_string_props)
  (libraries max_heap_string qcheck))
+
+(test
+ (name test_heap_crash)
+ (modules test_heap_crash)
+ (libraries max_heap_string qcheck qcheck-core unix)
+ (modes native))

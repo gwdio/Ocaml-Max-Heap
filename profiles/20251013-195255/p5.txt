@@ -1,0 +1,10 @@
+trial=1 kind=persistent n=200000 time=0.2614s minor_words=67108853 major_collections=2 promoted_words=1595468
+trial=1 kind=array      n=200000 time=0.1166s minor_words=0 major_collections=0 promoted_words=0
+trial=2 kind=persistent n=200000 time=0.2028s minor_words=100663279 major_collections=4 promoted_words=2979858
+trial=2 kind=array      n=200000 time=0.1145s minor_words=0 major_collections=0 promoted_words=0
+trial=3 kind=persistent n=200000 time=0.1891s minor_words=83886070 major_collections=3 promoted_words=2717965
+trial=3 kind=array      n=200000 time=0.1132s minor_words=0 major_collections=0 promoted_words=0
+trial=4 kind=persistent n=200000 time=0.1969s minor_words=83886067 major_collections=3 promoted_words=2689900
+trial=4 kind=array      n=200000 time=0.1145s minor_words=0 major_collections=0 promoted_words=0
+trial=5 kind=persistent n=200000 time=0.1942s minor_words=83886074 major_collections=3 promoted_words=2615110
+trial=5 kind=array      n=200000 time=0.1461s minor_words=16777214 major_collections=1 promoted_words=433701
